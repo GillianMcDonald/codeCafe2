@@ -1,7 +1,7 @@
 const express = require("express");
 const sql = require("mysql");
 const router = express.Router();
-// const coffees = require("../coffees.json");
+const coffees = require("../coffees.json");
 
 const con = sql.createConnection({
  host: "127.0.0.1",

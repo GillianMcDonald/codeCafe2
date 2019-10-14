@@ -3,8 +3,7 @@ import Cart from './cart'
 import Navbar from './navbar'
 
 
-// import Footer from './footer'
-// import CoffeeTypes from './CoffeeTypes'
+import Footer from './footer'
 import './layout.css'
 
 
@@ -16,10 +15,7 @@ export default class Layout extends Component {
                  <div className="backgroundcontainer">
             <Navbar />
             <Cart />
-        
-            {/* <CoffeeTypes /> */}
-
-            {/* <Footer /> */}
+          
        
 
                 </div>

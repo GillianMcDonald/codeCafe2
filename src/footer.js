@@ -5,7 +5,7 @@ class Footer extends React.Component {
 
     render() {
         return (
-                
+          
             <div className="footer">
                  <div className="footercontainer">               
                         
@@ -38,14 +38,14 @@ class Footer extends React.Component {
                         <h3>FAQ's</h3>
                         </ul>
                     </div>
-
+            
                         <div className="copyright">
-                        <i class="far fa-copyright"></i>
-                            <h1>2019 Cafe Coder Corporation. All rights reserved. </h1>
+                        <i class="far fa-copyright">2019 Cafe Coder Corporation. All rights reserved.</i>
+                            <h1> </h1>
                         </div>
 
-                               
-                </div>
+                                
+                        </div>
             </div>
         )
     }

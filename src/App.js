@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import Layout from './layout'
 import CoffeeTypes from './CoffeeTypes';
+import Footer from './footer'
 
 const coffees =
 [
@@ -57,6 +58,38 @@ const coffees =
 
 
 export default class App extends Component {
+  state = {
+    newOrder: this.props.newOrder,
+    value: "",
+    orders: []
+    // CName: this.props.cName,
+    // CDescription: this.props.CDescription,
+    // CSize: this.props.CSize,
+    // CDecaf: this.props.CDecaf,
+    // CMilk: this.props.cMilk,
+    
+  }
+
+    //not sure if i need this? think it just ensured text written into username in Oreo 
+  // handleClick(e) {
+  //   e.preventDefault();
+  //   this.setState({value: event.target.value})
+  // }
+
+  // addToCart = (e) => {
+  //   if className = "cartIcon"
+  // }
+
+
+    // state = { 
+    //   order: null
+    // }
+    // setOrder = (order) => {
+    //   this.setState({order})
+    // }
+    
+
+
 
   render() {
     return (
@@ -65,7 +98,7 @@ export default class App extends Component {
        <div className = "sixCoffees">
          <div id= "Latte">
             <CoffeeTypes data={coffees[0]}/>
-         </div> 
+         </div>  
              <div id= "Cappuccino">
          <CoffeeTypes data={coffees[1]}/>
              </div><div  id= "Americano">
@@ -76,9 +109,9 @@ export default class App extends Component {
          <CoffeeTypes data={coffees[4]}/>
              </div><div id= "Macchiato">
          <CoffeeTypes data={coffees[5]}/>
-           </div>
+           </div> 
         
-        
+           <Footer />
       
 
     </div>

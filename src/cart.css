@@ -161,4 +161,27 @@
     text-decoration: none;
   }
 
+  .deletebtn {
+    border: none;
+    outline: none;
+  }
+  .active, .deletebtn:hover {
+    color: goldenrod;
+  }
+  .minusbtn {
+    border: none;
+    outline: none;
+  }
+  .active, .minusbtn:hover {
+    color: goldenrod;
+  }
+
+  .plusbtn {
+    border: none;
+    outline: none;
+  }
+  .active, .plusbtn:hover {
+    color: goldenrod;
+  }
+
   
